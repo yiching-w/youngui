@@ -5,6 +5,7 @@ $(document).ready(function () {
     const nav = document.querySelector('.nav')
     burger.addEventListener('click', function () {
       navLinks.classList.toggle('active');
+      $('body').toggleClass('overflow-hidden');
     })
   
     window.addEventListener('scroll', function () {
