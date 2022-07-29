@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: GlowSans;
-    src: url("font/YingHei.otf") format("opentype");
+    src: url("font/GlowSans.otf") format("opentype");
 }
 
 @font-face {
     font-family: GlowSans-Light;
-    src: url("font/YingHei-Light.otf") format("opentype");
+    src: url("font/GlowSans-Light.otf") format("opentype");
 }
 
 :root {
