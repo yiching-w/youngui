@@ -1,21 +1,25 @@
 @font-face {
     font-family: KuMincho;
     src: url("font/KuMincho-R.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: A1MingChaoStd;
-    src: url("font/A-OTF-A1MingChaoStd-Bold-2.otf") format("opentype");
+    src: url('font/A-OTF-A1MingChaoStd-Bold-2.otf') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: GlowSans;
     src: url("font/GlowSans.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: GlowSans-Light;
     src: url("font/GlowSans-Light.otf") format("opentype");
+    font-display: swap;
 }
 
 :root {
