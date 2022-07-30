@@ -6,7 +6,8 @@
 
 @font-face {
     font-family: A1MingChaoStd;
-    src: url('font/A-OTF-A1MingChaoStd-Bold-2.otf') format('opentype');
+    src: url('font/A-OTF-A1MingChaoStd-Bold-2.woff') format('woff'),
+        url('font/A-OTF-A1MingChaoStd-Bold-2.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -180,7 +181,6 @@ body.overflow-hidden {
 .banner {
     height: 100vh;
     width: 100%;
-    position: relative;
 }
 
 .bgImg {
