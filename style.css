@@ -320,10 +320,6 @@ body.overflow-hidden {
 }
 
 @media (max-width: 578px) {
-    .banner {
-        height: 80vh;
-    }
-
     .bgImg {
         height: 80%;
     }
