@@ -1,18 +1,149 @@
 .banner {
     height: 80vh;
     width: 100%;
-    background-image: url(img/faq.jpg);
-    background-position: 45%;
+    background-image: url(img/plan_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 section {
-    color: #000;
+    color: #676767;
+    margin-bottom: 100px;
 }
 
 #plan .title {
     text-align: center;
     font-size: 40px;
     margin-bottom: 35px;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        background-position: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 70vh;
+        background-position: 70% 50px;
+    }
+}
+
+@media (max-width: 578px) {
+    .banner {
+        height: 50vh;
+        background-position: 75% 50px;
+    }
+}
+
+#plan .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#plan .content .card {
+    width: calc(100%/3 - 40px);
+    height: 500px;
+    background-color: #dcdad6;
+}
+
+#plan .content .card .card-body {
+    padding: 20px 10px 30px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .5px;
+}
+
+#plan .content .card .card-body .card-title {
+    font-size: 22px;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    width: fit-content;
+}
+
+#plan .content .card .card-body .subTitle {
+    margin: 10px 0;
+}
+
+#plan .content .card .card-img {
+    height: 50%;
+}
+
+#plan .content .card .card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    #plan .content {
+        gap: 30px;
+    }
+
+    #plan .content .card .card-body {
+        padding: 10px 10px 30px;
+    }
+
+    #plan .content .card {
+        width: calc(100%/3 - 30px);
+        height: 460px;
+    }
+
+    #plan .content .card .card-img {
+        height: 42%;
+    }
+}
+
+@media (max-width: 991px) {
+    #plan .content {
+        gap: 40px;
+    }
+
+    #plan .content .card {
+        width: calc(100%/2 - 40px);
+        height: 480px;
+    }
+
+    #plan .content .card .card-img {
+        height: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #plan .content {
+        gap: 20px;
+    }
+
+    #plan .content .card {
+        width: calc(100%/2 - 20px);
+        height: 480px;
+    }
+
+    #plan .content .card .card-img {
+        height: 40%;
+    }
+}
+
+@media (max-width: 578px) {
+    #plan .content {
+        gap: 25px;
+    }
+
+    #plan .content .card .card-body {
+        padding: 25px 10px 30px;
+    }
+
+    #plan .content .card {
+        width: calc(100%);
+        height: 480px;
+    }
+
+    #plan .content .card .card-img {
+        height: 50%;
+    }
 }
