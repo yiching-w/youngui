@@ -75,24 +75,30 @@
     .banner_card {
         padding: 20px 50px 45px 85px;
     }
+
     .banner_card .title {
         font-size: 70px;
         letter-spacing: 4px;
         line-height: 65px;
     }
+
     .banner_card .jp {
         font-size: 50px;
     }
+
     .banner_card .jp span {
         font-size: 36px;
     }
+
     .banner_card .slogan {
         font-size: 20px;
         margin-top: 10px;
     }
+
     .banner_card .btn_wrap .btn:first-child {
         margin-right: 20px;
     }
+
     .btn {
         font-size: 18px;
     }
@@ -102,26 +108,32 @@
     .banner_card {
         padding: 25px 55px 50px 90px;
     }
+
     .banner_card .title {
         font-size: 80px;
         letter-spacing: 5px;
         line-height: 70px;
     }
+
     .banner_card .jp {
         font-size: 55px;
         line-height: 65px;
         letter-spacing: -4px;
     }
+
     .banner_card .jp span {
         font-size: 40px;
     }
+
     .banner_card .slogan {
         font-size: 23px;
         margin-top: 10px;
     }
+
     .banner_card .btn_wrap .btn:first-child {
         margin-right: 40px;
     }
+
     .btn {
         font-size: 18px;
     }
@@ -131,31 +143,39 @@
     .bgImg {
         height: 80%;
     }
+
     .banner_bottom {
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .banner_card {
         background-color: #fff9;
         padding: 10px 25px 25px;
     }
+
     .banner_card .title {
         font-size: 55px;
     }
+
     .banner_card .jp {
         font-size: 40px;
     }
+
     .banner_card .jp span {
         font-size: 32px;
     }
+
     .banner_card .btn_wrap {
         display: none;
     }
+
     .mobile_btn_wrap {
         display: block;
     }
+
     .mobile_btn_wrap .btn {
         margin: 0 15px;
     }
@@ -228,6 +248,7 @@ section#hangOut .header {
     .swiper {
         width: 80%;
     }
+
     section#hangOut .header {
         width: 80%;
     }
@@ -237,6 +258,7 @@ section#hangOut .header {
     .swiper {
         width: 100%;
     }
+
     section#hangOut .header {
         width: 100%;
     }
@@ -254,14 +276,41 @@ section#hangOut .header {
         align-items: end;
         margin-bottom: 40px;
     }
+
     section#hangOut:after {
         top: 100px;
     }
+
     .seeMore_btn {
         margin-top: 10px;
     }
+
     #hangOut .title::before {
         left: -30px;
+    }
+}
+
+.wow {
+    visibility: hidden;
+}
+
+.scaleOutFade {
+    -webkit-animation-name: scaleOutFade;
+    animation-name: scaleOutFade;
+}
+
+@keyframes scaleOutFade {
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.5, .5, .5);
+        transform: scale3d(.5, .5, .5);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
 
@@ -422,12 +471,15 @@ section#plan {
     #plan .card {
         width: 93%;
     }
+
     #plan .card .left {
         padding: 30px;
     }
+
     #plan .card .title {
         margin-bottom: 30px;
     }
+
     #plan .seeMore {
         margin-top: 30px;
     }
@@ -437,47 +489,59 @@ section#plan {
     #plan .card {
         width: 100%;
     }
+
     #plan .card .left {
         padding: 20px;
     }
+
     #plan .card {
         font-size: 16px;
     }
+
     #plan .card .title {
         margin-bottom: 10px;
     }
+
     #plan .seeMore {
         margin-top: 10px;
     }
+
     #plan .card p {
         font-size: 14px;
     }
 }
 
 @media (max-width: 578px) {
+
     .swiper-button-next,
     .swiper-button-prev {
         width: 60px;
         height: 60px;
     }
+
     section#plan {
         margin-top: 60px;
     }
+
     #plan .card {
         flex-direction: column;
     }
+
     #plan .card .left,
     #plan .card .right {
         width: 100%;
     }
+
     #plan .card .left {
         order: 2;
         padding: 20px 30px 30px;
         font: 18px;
     }
+
     #plan .card p {
         font-size: 16px;
     }
+
     #plan .seeMore {
         margin-top: 35px;
     }
@@ -515,6 +579,25 @@ section#comment .header {
 
 .experienceBtn {
     margin: 80px auto;
+    animation: buttonanimation 1.5s ease-in-out infinite;
+}
+
+@keyframes buttonanimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.04);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .experienceBtn .btn-black-outline {
@@ -536,10 +619,12 @@ section#comment .header {
     section#comment .header {
         justify-content: center;
     }
+
     section#comment .container {
         max-width: 100%;
         padding: 0;
     }
+
     #comment .title::before {
         left: -30px;
     }
@@ -572,6 +657,7 @@ section#ad {
     section#ad {
         height: auto;
     }
+
     .adImgWrap {
         width: 100%;
     }

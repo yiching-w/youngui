@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
         integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -24,7 +27,7 @@
 <body>
     <div class="banner" id="banner">
         <img class="bgImg" src="img/banner.jpg" />
-        <div class="banner_card">
+        <div class="banner_card wow fadeInLeft">
             <div class="title f_broadsheet">
                 <div>YOUNG</div>
                 <div>ME</div>
@@ -88,13 +91,13 @@
     <section id="hangOut">
         <div class="container">
             <div class="header">
-                <div class="title f_KuMincho">時租陪玩女孩<span>／GIRL</span></div>
+                <div class="title f_KuMincho">時租陪玩女孩<span class="f_athelas">／GIRL</span></div>
                 <button class="btn btn-black-outline btn-round seeMore_btn">點我看更多<img src="img/arrow.png" alt="arrow"
                         width="30px"></button>
             </div>
             <div class="swiper hangOutSwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide wow scaleOutFade">
                         <img src="img/hangOut1.jpg" alt="陪玩師" loading="lazy">
                         <div class="slide-card">
                             <div class="info">
@@ -107,8 +110,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/hangOut2.jpg" alt="陪玩師" loading="lazy">
+                    <div class="swiper-slide wow scaleOutFade" data-wow-delay="0.1s">
+                        <img src=" img/hangOut2.jpg" alt="陪玩師" loading="lazy">
                         <div class="slide-card">
                             <div class="info">
                                 <div class="nickname">浠浠</div>
@@ -120,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide wow scaleOutFade" data-wow-delay="0.2s">
                         <img src="img/hangOut3.jpg" alt="陪玩師" loading="lazy">
                         <div class="slide-card">
                             <div class="info">
@@ -134,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide wow scaleOutFade" data-wow-delay="0.3s">
                         <img src="img/hangOut4.jpg" alt="陪玩師" loading="lazy">
                         <div class="slide-card">
                             <div class="info">
@@ -147,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide wow scaleOutFade" data-wow-delay="0.4s">
                         <img src="img/hangOut5.jpg" alt="陪玩師" loading="lazy">
                         <div class="slide-card">
                             <div class="info">
@@ -266,7 +269,7 @@
     </section>
 
     <section id="plan">
-        <div class="card">
+        <div class="card wow fadeInRight">
             <div class="left">
                 <div class="title f_KuMincho">時租計畫</div>
                 <div>
@@ -276,8 +279,8 @@
                     </p>
                 </div>
                 <div class="seeMore">
-                    <button class="btn btn-black-outline btn-round">查看更多<img src="img/arrow.png" alt="arrow"
-                            width="30px"></button>
+                    <a href="plan.html" class="btn btn-black-outline btn-round">查看更多<img src="img/arrow.png" alt="arrow"
+                            width="30px"></a>
                 </div>
             </div>
             <div class="right">
@@ -289,9 +292,9 @@
     <section id="comment">
         <div class="container">
             <div class="header">
-                <div class="title f_KuMincho">好評區<span>／COMMENT</span></div>
+                <div class="title f_KuMincho">好評區<span class="f_athelas">／COMMENT</span></div>
             </div>
-            <div>
+            <div class="wow fadeIn">
                 <img src="img/comment.jpg" alt="comment" width="100%">
             </div>
 
@@ -303,7 +306,7 @@
     </section>
 
     <section id="ad">
-        <div class="adImgWrap">
+        <div class="adImgWrap wow fadeIn">
             <img src="img/ad.jpg" alt="ad">
         </div>
     </section>
@@ -329,6 +332,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
         integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="script.js"></script>
     <script>
         var swiper = new Swiper(".hangOutSwiper", {
@@ -351,6 +355,8 @@
                 },
             }
         });
+
+        new WOW().init();
     </script>
 </body>
 
