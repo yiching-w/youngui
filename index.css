@@ -533,7 +533,7 @@ section#comment .header {
 
 .experienceBtn {
     margin: 80px auto;
-    animation: buttonanimation 1.5s ease-in-out infinite;
+    animation: buttonanimation 0.5s ease-in-out infinite;
 }
 
 @keyframes buttonanimation {
@@ -541,10 +541,10 @@ section#comment .header {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.04);
+        transform: scale(1.06);
     }
     75% {
-        transform: scale(1);
+        transform: scale(1.04);
     }
     100% {
         transform: scale(1);
