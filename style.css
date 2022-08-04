@@ -167,8 +167,8 @@ body.overflow-hidden {
 
 .btn-black-outline {
     color: #000;
-    font-size: 0.8rem !important;
-    border: 0.01em solid #000;
+    font-size: 0.9rem !important;
+    border: 0.13em solid #000;
     background-color: transparent;
 }
 
@@ -183,20 +183,22 @@ body.overflow-hidden {
     width: 100%;
     z-index: 9;
     background-color: var(--primary);
-    height: 80px;
+    height: 95px;
+    font-size: 1.15rem;
     transition: all 0.3s ease-in;
-}
-
-.nav .container {
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 100%;
+    padding: 0 35px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.nav .logo img {
+    width: 60px;
 }
 
 ul.nav-links {
@@ -264,6 +266,16 @@ ul.nav-links.active+.burger div:last-child {
 }
 
 @media screen and (max-width: 768px) {
+    .nav {
+        height: 80px;
+        font-size: 1rem;
+        padding: 0 18px 0 15px;
+    }
+
+    .nav .logo img {
+        width: 50px;
+    }
+
     .burger {
         display: flex;
     }
@@ -373,29 +385,22 @@ section {
 
 footer {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     border-top: 1px solid #000;
-    color: #676767;
-    width: 80%;
+    background-color: var(--primary);
+    color: #fff;
     margin: 0 auto;
-    padding: 20px 0 80px;
+    padding: 20px 60px 30px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-footer .copyright {
-    position: absolute;
-}
-
-footer .copyright .logo {
+footer .copyright .m-logo {
     display: none;
 }
 
-footer .agreement {
-    margin: 0 auto;
-}
-
 footer .agreement a {
-    color: #676767;
     margin: 0 10px;
 }
 
@@ -419,16 +424,17 @@ footer .agreement a {
 
     footer {
         border: none;
-        width: 100%;
         padding: 30px;
-        background-color: var(--primary);
-        color: #fff;
     }
 
-    footer .copyright .logo {
+    footer .copyright .m-logo {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
+    }
+
+    footer .p-logo {
+        display: none;
     }
 
     footer .copyright {
