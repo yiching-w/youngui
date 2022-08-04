@@ -581,7 +581,8 @@ section#comment .header {
 
 @media (max-width: 578px) {
     .experienceBtn {
-        margin: 45px 0;
+        margin: 45px auto;
+        width: 50%;
     }
 }
 
