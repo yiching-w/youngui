@@ -372,14 +372,26 @@ footer {
     background-color: var(--primary);
     color: #fff;
     margin: 0 auto;
-    padding: 20px 60px 30px;
+    padding: 50px 60px;
+}
+
+.footer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+
+.footer .right {
+    display: flex;
 }
 
 footer .copyright .m-logo {
     display: none;
+}
+
+footer .p-logo {
+    text-align: right;
 }
 
 footer .agreement a {
@@ -395,6 +407,9 @@ footer .agreement a {
         position: static;
         margin-bottom: 10px;
     }
+    .footer .right {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 578px) {
@@ -404,6 +419,11 @@ footer .agreement a {
     footer {
         border: none;
         padding: 30px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        border-top: 0;
     }
     footer .copyright .m-logo {
         display: flex;
@@ -420,9 +440,8 @@ footer .agreement a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-bottom: 1px solid #fff;
         font-family: GlowSans-Light;
-        width: 90%;
+        border-bottom: 1px solid #fff;
         margin-bottom: 30px;
     }
     footer .agreement a {
