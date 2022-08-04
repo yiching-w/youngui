@@ -92,7 +92,6 @@ $(document).ready(function() {
     window.addEventListener('scroll', throttle(lazyload, 200));
 
     function lazyload() {
-        console.log('asd')
         let viewHeight = document.body.clientHeight //獲取可視區高度
         let imgs = document.querySelectorAll('img[data-src]')
         imgs.forEach((item, index) => {
