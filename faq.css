@@ -24,6 +24,7 @@ section {
 
 #faq .content .item {
     width: 60%;
+    transform: translateX(170px);
     margin: 0 auto;
     padding-right: 200px;
 }
@@ -44,11 +45,15 @@ section {
 
 #faq .content .answer {
     letter-spacing: 1px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
 }
 
 @media (max-width: 1200px) {
     #faq .content .item {
         padding-right: 0px;
+        transform: translateX(50px);
     }
 }
 
@@ -56,8 +61,10 @@ section {
     .banner {
         height: 70vh;
     }
+
     #faq .content .item {
         width: 70%;
+        transform: translateX(00px);
     }
 }
 
@@ -65,16 +72,20 @@ section {
     .banner {
         height: 50vh;
     }
+
     #faq .title {
         font-size: 30px;
         margin-bottom: 25px;
     }
+
     #faq .content {
         padding: 25px 0;
     }
+
     #faq .content .item {
         width: 80%;
     }
+
     #faq .content .item:not(:last-child) {
         margin-bottom: 40px;
     }
@@ -92,17 +103,18 @@ section {
     align-items: center;
     margin: 0 auto;
     width: 60%;
+    position: relative;
 }
 
 .others_faq .type {
     font-size: 25px;
     position: absolute;
-    top: 0;
-    right: 100px;
+    top: -60px;
+    right: 0;
 }
 
 #customer .type {
-    top: -70px;
+    top: -115px;
 }
 
 .others_faq .type::after {
@@ -141,11 +153,15 @@ section {
 
 .others_faq .card .item .answer {
     letter-spacing: 1px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
 }
 
 #customer {
     background-color: #dcdad6;
     padding: 45px 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 991px) {
@@ -158,12 +174,15 @@ section {
     .others_faq .card {
         width: 80%;
     }
+
     .others_faq .card .num {
         font-size: 120px;
     }
+
     .others_faq .card .devider {
         margin: 0 40px;
     }
+
     .others_faq .card .item:not(:last-child) {
         margin-bottom: 30px;
     }
@@ -173,27 +192,38 @@ section {
     .others_faq {
         margin-top: 40px;
     }
+
     .others_faq .card {
         flex-direction: column;
+        align-items: flex-start;
     }
+
     .others_faq .card .num {
-        font-size: 90px;
+        font-size: 100px;
+        border-bottom: 0.01em solid;
+        line-height: 100px;
+        margin-bottom: 40px;
     }
+
     .others_faq .card .devider {
-        margin: 0 0 30px;
-        height: 1px;
-        width: 190px;
+        display: none;
     }
+
     .others_faq .type {
-        right: 10px;
-        top: -10px;
-        overflow: hidden;
+        right: 0;
+        top: 0;
     }
+
     .others_faq .card .item:not(:last-child) {
         margin-bottom: 35px;
     }
+
     #customer {
-        padding-top: 0;
+        padding-top: 20px;
         margin-top: 100px;
+    }
+
+    #customer .type {
+        top: -80px;
     }
 }
