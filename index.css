@@ -78,30 +78,24 @@
     .banner_card {
         padding: 20px 50px 45px 85px;
     }
-
     .banner_card .title {
         font-size: 80px;
         letter-spacing: 4px;
         line-height: 70px;
     }
-
     .banner_card .jp {
         font-size: 55px;
     }
-
     .banner_card .jp span {
         font-size: 40px;
     }
-
     .banner_card .slogan {
         font-size: 21px;
         margin-top: 13px;
     }
-
     .banner_card .btn_wrap .btn:first-child {
         margin-right: 25px;
     }
-
     .btn {
         font-size: 20px;
     }
@@ -111,32 +105,26 @@
     .banner_card {
         padding: 35px 70px 55px 100px;
     }
-
     .banner_card .title {
         font-size: 110px;
         letter-spacing: 6px;
         line-height: 100px;
     }
-
     .banner_card .jp {
         font-size: 70px;
         line-height: 65px;
         letter-spacing: -5px;
     }
-
     .banner_card .jp span {
         font-size: 50px;
     }
-
     .banner_card .slogan {
         font-size: 25px;
         margin-top: 20px;
     }
-
     .banner_card .btn_wrap .btn:first-child {
         margin-right: 40px;
     }
-
     .btn {
         font-size: 22px;
     }
@@ -146,39 +134,31 @@
     .bgImg {
         height: 80%;
     }
-
     .banner_bottom {
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
     .banner_card {
         background-color: #fff9;
         padding: 10px 25px 25px;
     }
-
     .banner_card .title {
         font-size: 55px;
     }
-
     .banner_card .jp {
         font-size: 40px;
     }
-
     .banner_card .jp span {
         font-size: 32px;
     }
-
     .banner_card .btn_wrap {
         display: none;
     }
-
     .mobile_btn_wrap {
         display: block;
     }
-
     .mobile_btn_wrap .btn {
         margin: 0 15px;
     }
@@ -252,7 +232,6 @@ section#hangOut .header {
     .swiper {
         width: 80%;
     }
-
     section#hangOut .header {
         width: 80%;
     }
@@ -262,7 +241,6 @@ section#hangOut .header {
     .swiper {
         width: 100%;
     }
-
     section#hangOut .header {
         width: 100%;
     }
@@ -274,40 +252,76 @@ section#hangOut .header {
     }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 520px) {
     section#hangOut .header {
         margin-bottom: 40px;
         justify-content: start;
     }
-
     section#hangOut:after {
         top: 100px;
     }
-
     section#hangOut .m_line {
         width: 32px;
         height: 2px;
         background-color: var(--primary);
         margin-right: 3px;
     }
-
     .seeMore_btn {
-        padding: 2px 7px;
+        padding: 5px 10px;
         margin-left: 6px;
     }
-
     .seeMore_btn img {
         margin-left: 5px;
-        width: 20px;
+        width: 25px;
     }
-
     #hangOut .title {
-        font-size: 19px;
+        font-size: 26px;
         letter-spacing: 1px;
     }
-
     #hangOut .title::before {
         content: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .seeMore_btn {
+        padding: 3px 8px;
+    }
+    .seeMore_btn img {
+        width: 20px;
+    }
+    #hangOut .title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px) {
+    .seeMore_btn {
+        padding: 2px 7px;
+    }
+    #hangOut .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    #hangOut .title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    .seeMore_btn {
+        padding: 2px 5px;
+    }
+    .seeMore_btn img {
+        width: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .seeMore_btn img {
+        width: 15px;
     }
 }
 
@@ -322,7 +336,6 @@ section#hangOut .header {
         -webkit-transform: scale3d(.5, .5, .5);
         transform: scale3d(.5, .5, .5);
     }
-
     100% {
         opacity: 1;
         -webkit-transform: scale3d(1, 1, 1);
@@ -369,7 +382,7 @@ section#hangOut .header {
 }
 
 .slide-card .age {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .slide-card .area {
@@ -487,15 +500,12 @@ section#plan {
     #plan .card {
         width: 93%;
     }
-
     #plan .card .left {
         padding: 30px;
     }
-
     #plan .card .title {
         margin-bottom: 30px;
     }
-
     #plan .seeMore {
         margin-top: 30px;
     }
@@ -505,59 +515,47 @@ section#plan {
     #plan .card {
         width: 100%;
     }
-
     #plan .card .left {
         padding: 20px;
     }
-
     #plan .card {
         font-size: 16px;
     }
-
     #plan .card .title {
         margin-bottom: 10px;
     }
-
     #plan .seeMore {
         margin-top: 10px;
     }
-
     #plan .card p {
         font-size: 14px;
     }
 }
 
 @media (max-width: 578px) {
-
     .swiper-button-next,
     .swiper-button-prev {
         width: 60px;
         height: 60px;
     }
-
     section#plan {
         margin-top: 60px;
     }
-
     #plan .card {
         flex-direction: column;
     }
-
     #plan .card .left,
     #plan .card .right {
         width: 100%;
     }
-
     #plan .card .left {
         order: 2;
         padding: 20px 30px 30px;
         font: 18px;
     }
-
     #plan .card p {
         font-size: 16px;
     }
-
     #plan .seeMore {
         margin-top: 35px;
     }
@@ -606,15 +604,12 @@ section#comment .header {
     0% {
         transform: scale(1);
     }
-
     50% {
         transform: scale(1.06);
     }
-
     75% {
         transform: scale(1.04);
     }
-
     100% {
         transform: scale(1);
     }
@@ -639,45 +634,37 @@ section#comment .header {
     section#comment .header {
         justify-content: center;
     }
-
     section#comment .container {
         max-width: 100%;
         padding: 0;
     }
-
     #comment .title::before {
         left: -30px;
     }
 }
 
 @media (max-width: 578px) {
-
     section#comment .header {
         justify-content: start;
         margin-bottom: 30px;
         margin-left: 15px;
     }
-
     section#comment .m_line {
         width: 32px;
         height: 2px;
         background-color: var(--secondary);
         margin-right: 3px;
     }
-
     .experienceBtn {
         margin: 45px auto;
         width: 50%;
     }
-
     section#comment {
         width: 100%;
     }
-
     #comment .title {
         font-size: 20px;
     }
-
     #comment .title::before {
         content: none;
     }
@@ -689,6 +676,7 @@ section#ad {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .adImgWrap {
@@ -705,7 +693,6 @@ section#ad {
         height: auto;
         padding: 40px 0;
     }
-
     .adImgWrap {
         width: 100%;
     }
