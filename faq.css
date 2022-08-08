@@ -109,7 +109,6 @@ section {
 
 #customer .type {
     top: -60px;
-    background-color: #eae8e3;
     padding: 10px 15px 10px 10px;
 }
 
@@ -128,7 +127,7 @@ section {
     bottom: 7px;
     left: 10px;
     width: 85%;
-    z-index: 1;
+    background-color: #c6c5c3;
 }
 
 .others_faq .card .num {
@@ -164,6 +163,7 @@ section {
     background-color: #dcdad6;
     padding: 90px 0;
     margin-bottom: 0;
+    z-index: -2;
 }
 
 @media (max-width: 991px) {
