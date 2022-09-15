@@ -60,6 +60,7 @@ section {
     .banner {
         height: 70vh;
     }
+
     #faq .content .item {
         width: 70%;
         transform: translateX(00px);
@@ -70,16 +71,20 @@ section {
     .banner {
         height: 50vh;
     }
+
     #faq .title {
         font-size: 30px;
         margin-bottom: 25px;
     }
+
     #faq .content {
         padding: 25px 0;
     }
+
     #faq .content .item {
         width: 80%;
     }
+
     #faq .content .item:not(:last-child) {
         margin-bottom: 40px;
     }
@@ -176,12 +181,15 @@ section {
     .others_faq .card {
         width: 80%;
     }
+
     .others_faq .card .num {
         font-size: 120px;
     }
+
     .others_faq .card .devider {
         margin: 0 40px;
     }
+
     .others_faq .card .item:not(:last-child) {
         margin-bottom: 30px;
     }
@@ -191,30 +199,37 @@ section {
     .others_faq {
         margin-top: 40px;
     }
+
     .others_faq .card {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .others_faq .card .num {
         font-size: 100px;
         border-bottom: 0.01em solid;
         line-height: 100px;
         margin-bottom: 40px;
     }
+
     .others_faq .card .devider {
         display: none;
     }
+
     .others_faq .type {
         right: 0;
         top: 0;
     }
+
     .others_faq .card .item:not(:last-child) {
         margin-bottom: 35px;
     }
+
     #customer {
         padding-top: 20px;
         margin-top: 100px;
     }
+
     #customer .type {
         top: 0px;
     }

@@ -1,14 +1,14 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     const burger = document.querySelector('.burger')
     const navLinks = document.querySelector('ul.nav-links')
     const nav = document.querySelector('.nav')
-    burger.addEventListener('click', function() {
+    burger.addEventListener('click', function () {
         navLinks.classList.toggle('active');
         $('body').toggleClass('overflow-hidden');
     })
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         if (document.documentElement.scrollTop > 200) {
             nav.classList.add('active')
         } else {
@@ -16,7 +16,7 @@ $(document).ready(function() {
         }
     })
 
-    $('a').on('click', function(e) {
+    $('a').on('click', function (e) {
         if (this.hash != '') {
             e.preventDefault();
             const hash = this.hash;
@@ -29,7 +29,7 @@ $(document).ready(function() {
     const moreBtns = document.querySelectorAll('.more')
 
     moreBtns.forEach((more) => {
-        more.addEventListener('click', function() {
+        more.addEventListener('click', function () {
             let id = this.getAttribute('data-id')
             let carousel = document.getElementById(id)
             let backdrop = document.querySelector('.backdrop')
@@ -109,7 +109,7 @@ $(document).ready(function() {
     function throttle(fn, delay) {
         let timer
         let prevTime
-        return function(...args) {
+        return function (...args) {
             const currTime = Date.now()
             const context = this
             if (!prevTime) prevTime = currTime
@@ -122,7 +122,7 @@ $(document).ready(function() {
                 return
             }
 
-            timer = setTimeout(function() {
+            timer = setTimeout(function () {
                 prevTime = Date.now()
                 timer = null
                 fn.apply(context, args)
