@@ -1149,7 +1149,7 @@ section.step {
 
 section.salary {
     background-color: hsl(60deg 0% 80% / 30%);
-    margin: 0 0 320px;
+    margin: 0 0 300px;
     padding: 100px 0 0;
     z-index: -1;
     position: relative;
