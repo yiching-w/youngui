@@ -1,369 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta charset="UTF-8" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
-        name="viewport" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+      name="viewport"
+    />
     <title>Young Me | 如何使用</title>
-    <link rel="preload" href="font/A-OTF-A1MingChaoStd-Bold-2.otf" as="font" type="font/opentype" crossorigin>
-    <link rel="preload" href="font/GlowSans.otf" as="font" type="font/opentype" crossorigin>
-    <link rel="preload" href="font/GlowSans-Light.otf" as="font" type="font/opentype" crossorigin>
-    <link rel="preload" href="font/KuMincho-R.otf" as="font" type="font/opentype" crossorigin>
-    <link rel="preload" as="image" href="img/plan_banner.jpg">
-    <link rel="preload" as="image" href="img/bg.png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/zme2spf.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
-        integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-        integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css?v=0804">
-    <link rel="stylesheet" href="new.css">
-    <link rel="stylesheet" href="guide.css">
-</head>
+    <link
+      rel="preload"
+      href="font/A-OTF-A1MingChaoStd-Bold-2.otf"
+      as="font"
+      type="font/opentype"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="font/GlowSans.otf"
+      as="font"
+      type="font/opentype"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="font/GlowSans-Light.otf"
+      as="font"
+      type="font/opentype"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="font/KuMincho-R.otf"
+      as="font"
+      type="font/opentype"
+      crossorigin
+    />
+    <link rel="preload" as="image" href="img/plan_banner.jpg" />
+    <link rel="preload" as="image" href="img/bg.png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/zme2spf.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
+      integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css?v=0804" />
+    <link rel="stylesheet" href="new.css" />
+    <link rel="stylesheet" href="guide.css" />
+  </head>
 
-<body>
+  <body>
     <div class="top_bg"></div>
     <div class="banner" id="banner"></div>
     <nav class="nav" id="navbar">
-        <div class="logo">
-            <a href="index.html">
-                <img src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="Logo" width="50">
-            </a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="index.html#find">找陪玩</a></li>
-            <li><a href="plan.html">時租計畫</a></li>
-            <li><a class="active" href="guide.html">如何使用</a></li>
-            <li><a href="recruitment.html">招募陪玩</a></li>
-            <li><a href="faq.html">養蜜Q&A</a></li>
-            <li><a href="https://line.me/R/ti/p/@017zadfy">在線客服</a></li>
-            <div class="mobile_nav">
-                <div class="agreement">
-                    <div><img src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="Logo" width="75">
-                    </div>
-                    <div>
-                        <a href="#">隱私條款</a>
-                        <a href="#">用戶條款</a>
-                        <a href="#">服務條款</a>
-                        <a href="#">陪玩須知</a>
-                    </div>
-                </div>
-                <div class="f_A1MingChaoStd title">レンタル 彼女</div>
-                <div class="f_KuMincho">時租約會 / 即刻見面</div>
-                <div class="btn_wrap">
-                    <button class="btn btn-secondary btn-round">即刻登入</button>
-                    <button class="btn btn-secondary btn-round">立即註冊</button>
-                </div>
-                <div class="copyright">
-                    <i class="far fa-copyright"></i>
-                    <span>2022 Young Me 養蜜</span>
-                </div>
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
+            alt="Logo"
+            width="50"
+          />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="index.html#find">找陪玩</a></li>
+        <li><a href="plan.html">時租計畫</a></li>
+        <li><a class="active" href="guide.html">如何使用</a></li>
+        <li><a href="recruitment.html">招募陪玩</a></li>
+        <li><a href="faq.html">養蜜Q&A</a></li>
+        <li><a href="https://line.me/R/ti/p/@017zadfy">在線客服</a></li>
+        <div class="mobile_nav">
+          <div class="agreement">
+            <div>
+              <img
+                src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
+                alt="Logo"
+                width="75"
+              />
             </div>
-        </ul>
-        <div class="burger">
-            <div></div>
-            <div></div>
+            <div>
+              <a href="#">隱私條款</a>
+              <a href="#">用戶條款</a>
+              <a href="#">服務條款</a>
+              <a href="#">陪玩須知</a>
+            </div>
+          </div>
+          <div class="f_A1MingChaoStd title">レンタル 彼女</div>
+          <div class="f_KuMincho">時租約會 / 即刻見面</div>
+          <div class="btn_wrap">
+            <button class="btn btn-secondary btn-round">即刻登入</button>
+            <button class="btn btn-secondary btn-round">立即註冊</button>
+          </div>
+          <div class="copyright">
+            <i class="far fa-copyright"></i>
+            <span>2022 Young Me 養蜜</span>
+          </div>
         </div>
+      </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+      </div>
     </nav>
 
     <section class="banner">
-        <div class="triangle"></div>
-        <div class="circleImage"></div>
-        <div class="banner_content">
-            <div class="banner_ch">
-                <div>如何</div>
-                <div>使用養蜜</div>
-            </div>
-            <div class="banner_en">HOW TO USE</div>
-            <div class="joinBtn">
-                <button class="btn">立即加入<img src="img/new/arrow_white.png" alt="arrow" width="30px"
-                        style="margin-left: 5px;"></button>
-            </div>
+      <div class="triangle"></div>
+      <div class="circleImage"></div>
+      <div class="banner_content">
+        <div class="banner_ch">
+          <div>如何</div>
+          <div>使用養蜜</div>
         </div>
-        <div class="banner_slogan">
-            <div>免費註冊，免下載直接開始體驗</div>
-            <div>提供安心金流服務，杜絕詐騙</div>
-            <img src="img/new/arrow_down.png" alt="往下箭頭">
+        <div class="banner_en">HOW TO USE</div>
+        <div class="joinBtn">
+          <button class="btn">
+            立即加入<img
+              src="img/new/arrow_white.png"
+              alt="arrow"
+              width="30px"
+              style="margin-left: 5px"
+            />
+          </button>
         </div>
+      </div>
+      <div class="banner_slogan">
+        <div>免費註冊，免下載直接開始體驗</div>
+        <div>提供安心金流服務，杜絕詐騙</div>
+        <img src="img/new/arrow_down.png" alt="往下箭頭" />
+      </div>
     </section>
 
     <section id="step">
-        <div class="container">
-            <div class="swiper_wrap" style="position: relative;">
-                <div class="swiper stepSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                            <img src="img/new/step_m1.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 1</h3>
-                                <div class="slide-content">養蜜官網註冊男生</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <img src="img/new/step_m2.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 2</h3>
-                                <div class="slide-content">
-                                    <div>放上紳士的照片，</div>
-                                    <div>填寫基本資料、自我介紹、</div>
-                                    <div>您理想類型及時租行程。</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <img src="img/new/step_m3.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 3</h3>
-                                <div class="slide-content">
-                                    <div>進行身分安心認證，</div>
-                                    <div>真人審核提高信任度。</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-                            <img src="img/new/step_m4.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 4</h3>
-                                <div class="slide-content">
-                                    <div>選擇喜歡的陪玩師，</div>
-                                    <div>直接交談時租行程及選擇費用。</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                            <img src="img/new/step_m5.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 5</h3>
-                                <div class="slide-content">
-                                    <div>確認後下訂單，</div>
-                                    <div>ME點付款後成功預約。</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                            <img src="img/new/step_m6.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 6</h3>
-                                <div class="slide-content">
-                                    <div>一起期待行程的到來，</div>
-                                    <div>並愉快的享受行程，</div>
-                                    <div>度過美好的時光～</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
-                            <img src="img/new/step_m7.jpg" alt="男生使用流程" width="100%">
-                            <div class="slide-card">
-                                <h3>STEP 7</h3>
-                                <div class="slide-content">
-                                    <div>結束後，不妨給陪玩師們一點鼓勵吧!</div>
-                                    <div>至聊天室中留下五星評價。</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="swiper_wrap" style="position: relative">
+          <div class="swiper stepSwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0s"
+              >
+                <img
+                  src="img/new/step_m1.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 1</h3>
+                  <div class="slide-content">養蜜官網註冊男生</div>
                 </div>
-                <div class="swiper-buttons">
-                    <div class="stepNum">1 — 7</div>
-                    <div class="swiper-button-prev">
-                        <img src="img/prev.png" alt="prev" width="10px">
-                    </div>
-                    <div class="swiper-button-next">
-                        <img src="img/next.png" alt="next" width="10px">
-                    </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <img
+                  src="img/new/step_m2.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 2</h3>
+                  <div class="slide-content">
+                    <div>放上紳士的照片，</div>
+                    <div>填寫基本資料、自我介紹、</div>
+                    <div>您理想類型及時租行程。</div>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <img
+                  src="img/new/step_m3.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 3</h3>
+                  <div class="slide-content">
+                    <div>進行身分安心認證，</div>
+                    <div>真人審核提高信任度。</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+              >
+                <img
+                  src="img/new/step_m4.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 4</h3>
+                  <div class="slide-content">
+                    <div>選擇喜歡的陪玩師，</div>
+                    <div>直接交談時租行程及選擇費用。</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.8s"
+              >
+                <img
+                  src="img/new/step_m5.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 5</h3>
+                  <div class="slide-content">
+                    <div>確認後下訂單，</div>
+                    <div>ME點付款後成功預約。</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <img
+                  src="img/new/step_m6.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 6</h3>
+                  <div class="slide-content">
+                    <div>一起期待行程的到來，</div>
+                    <div>並愉快的享受行程，</div>
+                    <div>度過美好的時光～</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1.2s"
+              >
+                <img
+                  src="img/new/step_m7.jpg"
+                  alt="男生使用流程"
+                  width="100%"
+                />
+                <div class="slide-card">
+                  <h3>STEP 7</h3>
+                  <div class="slide-content">
+                    <div>結束後，不妨給陪玩師們一點鼓勵吧!</div>
+                    <div>至聊天室中留下五星評價。</div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="swiper-buttons">
+            <div class="stepNum">1 — 7</div>
+            <div class="swiper-button-prev">
+              <img src="img/prev.png" alt="prev" width="10px" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="img/next.png" alt="next" width="10px" />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="precautions" style="position: relative;">
-        <div class="container">
-            <div class="dashed"></div>
-            <img class="arrow_down" src="img/new/arrow_down.png" alt="往下箭頭">
-            <div class="precautions_title">
-                <div class="ch">注意事項</div>
-                <div class="en">PRECAUTIONS</div>
-            </div>
-            <div class="precautions_content">
-                <div>您必須遵守服務條款</div>
-                <div>請如期赴約，<span class="pc_display">若30分鐘內仍無法聯繫，將不退點</span></div>
-                <div class="m_display">若30分鐘內仍無法聯繫，將不退點</div>
-                <div>取消訂單需在赴約時間24小時前提出</div>
-            </div>
+    <section class="precautions" style="position: relative">
+      <div class="container">
+        <div class="dashed"></div>
+        <img class="arrow_down" src="img/new/arrow_down.png" alt="往下箭頭" />
+        <div class="precautions_title">
+          <div class="ch">注意事項</div>
+          <div class="en">PRECAUTIONS</div>
         </div>
+        <div class="precautions_content">
+          <div>您必須遵守服務條款</div>
+          <div>
+            請如期赴約，<span class="pc_display"
+              >若30分鐘內仍無法聯繫，將不退點</span
+            >
+          </div>
+          <div class="m_display">若30分鐘內仍無法聯繫，將不退點</div>
+          <div>取消訂單需在赴約時間24小時前提出</div>
+        </div>
+      </div>
     </section>
 
     <section class="raiders">
-        <div class="bg"></div>
-        <div class="container" style="position: relative;">
-            <div class="raidersWrap">
-                <div class="raiders_content_wrap">
-                    <div class="raiders_title">
-                        <div class="ch">使用攻略</div>
-                        <div class="en">RAIDERS</div>
-                    </div>
-                    <div class="raiders_content">
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>上傳您<span>本人乾淨帥氣的照片</span>，能夠認識更多陪玩師喔</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>收藏喜歡的陪玩師</span>，收藏的同時會通知被收藏者，這也增加您的誠意與喜好</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>免費3句話聊天<span>禮貌地自我介紹</span>並提出理想時租行程及預算，增加陪玩師接單意願</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>吃飯、下午茶鐵定是時租行程的第一首選，您也可以<span><a href="/plan.html">參考官方時租計畫</a></span></div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>使用ME點</span>提前支付行程費用，既有誠意又可以安心，就像您在網路上買書一樣，由第三方替您把關安全，杜絕猖狂的詐騙集團喔!</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>升級VIP</span>可以更快速認識陪玩師唷!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="raiders_img">
-                    <img src="img/new/raiders.png" alt="使用攻略" width="">
-                    <img src="img/new/young.png" alt="Young Me" width="">
-                </div>
+      <div class="bg"></div>
+      <div class="container" style="position: relative">
+        <div class="raidersWrap">
+          <div class="raiders_content_wrap">
+            <div class="raiders_title">
+              <div class="ch">使用攻略</div>
+              <div class="en">RAIDERS</div>
             </div>
+            <div class="raiders_content">
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  上傳您<span>本人乾淨帥氣的照片</span>，能夠認識更多陪玩師喔
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  <span>收藏喜歡的陪玩師</span
+                  >，收藏的同時會通知被收藏者，這也增加您的誠意與喜好
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  免費3句話聊天<span>禮貌地自我介紹</span>並提出理想時租行程及預算，增加陪玩師接單意願
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  吃飯、下午茶鐵定是時租行程的第一首選，您也可以<span
+                    ><a href="/plan.html">參考官方時租計畫</a></span
+                  >
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  <span>使用ME點</span
+                  >提前支付行程費用，既有誠意又可以安心，就像您在網路上買書一樣，由第三方替您把關安全，杜絕猖狂的詐騙集團喔!
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div><span>升級VIP</span>可以更快速認識陪玩師唷!</div>
+              </div>
+            </div>
+          </div>
+          <div class="raiders_img">
+            <img src="img/new/raiders.png" alt="使用攻略" width="" />
+            <img src="img/new/young.png" alt="Young Me" width="" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="meKING">
-        <div class="container" style="position: relative;">
-            <div class="meKINGWrap">
-                <div class="meKING_img">
-                    <img class="phone" src="img/new/meKING.png" alt="meKING" width="">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="crownWrap">
-                        <img class="crown" src="img/new/crown.png" alt="皇冠">
-                    </div>
-                </div>
-                <div class="meKING_content_wrap">
-                    <div class="meKING_title">
-                        <div>meKING PRO</div>
-                    </div>
-                    <div class="meKING_content">
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>獲得尊貴勳章</span>，提高陪玩師主動找您的機會</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>首頁推薦</span>會員顯示您的資訊，讓陪玩師一眼就注意到你</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>認識更多陪玩師，無聊天人數限制</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>和陪玩師們<span>無限暢聊</span></div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div><span>可觀看陪玩師</span>時租的評價</div>
-                        </div>
-                        <div class="d-flex">
-                            <b>．</b>
-                            <div>可邀請<span>查看陪玩師更多的生活照</span>，更熟悉彼此</div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container" style="position: relative">
+        <div class="meKINGWrap">
+          <div class="meKING_img">
+            <img class="phone" src="img/new/meKING.png" alt="meKING" width="" />
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="crownWrap">
+              <img class="crown" src="img/new/crown.png" alt="皇冠" />
             </div>
+          </div>
+          <div class="meKING_content_wrap">
+            <div class="meKING_title">
+              <div>meKING PRO</div>
+            </div>
+            <div class="meKING_content">
+              <div class="d-flex">
+                <b>．</b>
+                <div><span>獲得尊貴勳章</span>，提高陪玩師主動找您的機會</div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>
+                  <span>首頁推薦</span>會員顯示您的資訊，讓陪玩師一眼就注意到你
+                </div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>認識更多陪玩師，無聊天人數限制</div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>和陪玩師們<span>無限暢聊</span></div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div><span>可觀看陪玩師</span>時租的評價</div>
+              </div>
+              <div class="d-flex">
+                <b>．</b>
+                <div>可邀請<span>查看陪玩師更多的生活照</span>，更熟悉彼此</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <div class="footer">
-            <div class="copyright">
-                <div class="m-logo">
-                    <img data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="logo" width="100px">
-                </div>
-                <i class="far fa-copyright"></i>
-                <span>2022 Young Me 養蜜</span>
-            </div>
-            <div class="right">
-                <div class="agreement">
-                    <a href="#">隱私條款</a>
-                    <a href="#">用戶條款</a>
-                    <a href="#">服務條款</a>
-                    <a href="#">陪玩須知</a>
-                </div>
-                <div class="p-logo">
-                    <img data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="logo" width="70px">
-                </div>
-            </div>
+      <div class="fab-area">
+        <a
+          href="#"
+          class="scroll-top d-flex align-items-center justify-content-center"
+          ><i class="fas fa-arrow-up"></i
+        ></a>
+      </div>
+      <div class="footer">
+        <div class="copyright">
+          <div class="m-logo">
+            <img
+              data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
+              alt="logo"
+              width="100px"
+            />
+          </div>
+          <i class="far fa-copyright"></i>
+          <span>2022 Young Me 養蜜</span>
         </div>
+        <div class="right">
+          <div class="agreement">
+            <a href="#">隱私條款</a>
+            <a href="#">用戶條款</a>
+            <a href="#">服務條款</a>
+            <a href="#">陪玩須知</a>
+          </div>
+          <div class="p-logo">
+            <img
+              data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
+              alt="logo"
+              width="70px"
+            />
+          </div>
+        </div>
+      </div>
     </footer>
-    <script crossorigin="anonymous"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
-        integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      referrerpolicy="no-referrer"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
+      integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="script.js"></script>
     <script>
-        let swiper = new Swiper(".stepSwiper", {
-            autoplay: false,
+      let swiper = new Swiper(".stepSwiper", {
+        autoplay: false,
+        slidesPerView: 2,
+        spaceBetween: 15,
+        slidesPerGroup: 1,
+        width: 450,
+        loop: true,
+        loopFillGroupWithBlank: false,
+        pagination: false,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          576: {
             slidesPerView: 2,
-            spaceBetween: 15,
+            spaceBetween: 20,
             slidesPerGroup: 1,
-            width: 450,
-            loop: true,
-            loopFillGroupWithBlank: false,
-            pagination: false,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                576: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                    slidesPerGroup: 1,
-                    width: 768,
-                },
-                769: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                    slidesPerGroup: 1,
-                    width: 768,
-                },
-                991: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                    slidesPerGroup: 1,
-                    width: 991,
-                },
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                    slidesPerGroup: 1,
-                    width: 1200,
-                }
-            }
+            width: 768,
+          },
+          769: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 1,
+            width: 768,
+          },
+          991: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            width: 991,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            width: 1200,
+          },
+        },
+      });
+
+      new WOW().init();
+
+      const scrollTop = $(".scroll-top");
+      if (scrollTop) {
+        const togglescrollTop = function () {
+          window.scrollY > 100
+            ? scrollTop.addClass("active")
+            : scrollTop.removeClass("active");
+        };
+        $(document).on("scroll", togglescrollTop);
+        scrollTop.on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, 800);
         });
-
-        new WOW().init();
+      }
     </script>
-</body>
-
+  </body>
 </html>
