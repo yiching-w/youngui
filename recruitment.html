@@ -1,669 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
-      name="viewport"
-    />
-    <title>Young Me | 招募陪玩</title>
-    <link
-      rel="preload"
-      href="font/A-OTF-A1MingChaoStd-Bold-2.otf"
-      as="font"
-      type="font/opentype"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="font/GlowSans.otf"
-      as="font"
-      type="font/opentype"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="font/GlowSans-Light.otf"
-      as="font"
-      type="font/opentype"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="font/KuMincho-R.otf"
-      as="font"
-      type="font/opentype"
-      crossorigin
-    />
-    <link rel="preload" as="image" href="img/plan_banner.jpg" />
-    <link rel="preload" as="image" href="img/bg.png" />
-    <link rel="preload" as="image" href="img/new/banner_f.jpg" />
-    <link rel="preload" as="image" href="img/new/man.png" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/zme2spf.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
-      integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-      integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css?v=0804" />
-    <link rel="stylesheet" href="new.css" />
-    <link rel="stylesheet" href="recruitment.css" />
-  </head>
 
-  <body>
-    <div class="banner" id="banner">
-      <div class="banner_text">
-        <div class="banner_title">
-          <div>時租陪玩師</div>
-          <div>招募</div>
-        </div>
-        <div class="banner_content">
-          <div>養蜜正在尋找"溫柔、健談、有活力的女性"</div>
-          <div>喜歡認識新朋友、能夠領導不善於交談或</div>
-          <div>不習慣約會的男性，同時也能享並規劃時租行程。</div>
-        </div>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    name="viewport" />
+  <title>Young Me | 招募陪玩</title>
+  <link rel="preload" href="font/A-OTF-A1MingChaoStd-Bold-2.otf" as="font" type="font/opentype" crossorigin />
+  <link rel="preload" href="font/GlowSans.otf" as="font" type="font/opentype" crossorigin />
+  <link rel="preload" href="font/GlowSans-Light.otf" as="font" type="font/opentype" crossorigin />
+  <link rel="preload" href="font/KuMincho-R.otf" as="font" type="font/opentype" crossorigin />
+  <link rel="preload" as="image" href="img/plan_banner.jpg" />
+  <link rel="preload" as="image" href="img/bg.png" />
+  <link rel="preload" as="image" href="img/new/banner_f.jpg" />
+  <link rel="preload" as="image" href="img/new/man.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.typekit.net/zme2spf.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
+    integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css?v=0804" />
+  <link rel="stylesheet" href="new.css" />
+  <link rel="stylesheet" href="recruitment.css" />
+</head>
+
+<body>
+  <div class="banner" id="banner">
+    <div class="banner_text">
+      <div class="banner_title">
+        <div>時租陪玩師</div>
+        <div>招募</div>
       </div>
-      <div>
-        <a class="banner_btn" href="/signUp.asp"
-          >成為陪玩師<img src="img/arrow.png"
-        /></a>
+      <div class="banner_content">
+        <div>養蜜正在尋找"溫柔、健談、有活力的女性"</div>
+        <div>喜歡認識新朋友、能夠領導不善於交談或</div>
+        <div>不習慣約會的男性，同時也能享並規劃時租行程。</div>
       </div>
     </div>
-    <nav class="nav" id="navbar">
-      <div class="logo">
-        <a href="index.html">
-          <img
-            src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
-            alt="Logo"
-            width="50"
-          />
-        </a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="index.html#find">找陪玩</a></li>
-        <li><a href="plan.html">時租計畫</a></li>
-        <li><a href="guide.html">如何使用</a></li>
-        <li><a class="active" href="recruitment.html">招募陪玩</a></li>
-        <li><a href="faq.html">養蜜Q&A</a></li>
-        <li><a href="https://line.me/R/ti/p/@017zadfy">在線客服</a></li>
-        <div class="mobile_nav">
-          <div class="agreement">
-            <div>
-              <img
-                src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
-                alt="Logo"
-                width="75"
-              />
-            </div>
-            <div>
-              <a href="#">隱私條款</a>
-              <a href="#">用戶條款</a>
-              <a href="#">服務條款</a>
-              <a href="#">陪玩須知</a>
-            </div>
+    <div>
+      <a class="banner_btn" href="/signUp.asp">成為陪玩師<img src="img/arrow.png" /></a>
+    </div>
+  </div>
+  <nav class="nav" id="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="Logo" width="50" />
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="index.html#find">找陪玩</a></li>
+      <li><a href="plan.html">時租計畫</a></li>
+      <li><a href="guide.html">如何使用</a></li>
+      <li><a class="active" href="recruitment.html">招募陪玩</a></li>
+      <li><a href="faq.html">養蜜Q&A</a></li>
+      <li><a href="https://line.me/R/ti/p/@017zadfy">在線客服</a></li>
+      <div class="mobile_nav">
+        <div class="agreement">
+          <div>
+            <img src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="Logo" width="75" />
           </div>
-          <div class="f_A1MingChaoStd title">レンタル 彼女</div>
-          <div class="f_KuMincho">時租約會 / 即刻見面</div>
-          <div class="btn_wrap">
-            <button class="btn btn-secondary btn-round">即刻登入</button>
-            <button class="btn btn-secondary btn-round">立即註冊</button>
-          </div>
-          <div class="copyright">
-            <i class="far fa-copyright"></i>
-            <span>2022 Young Me 養蜜</span>
-          </div>
-        </div>
-      </ul>
-      <div class="burger">
-        <div></div>
-        <div></div>
-      </div>
-    </nav>
-
-    <section class="whyYoungMe">
-      <div class="square"></div>
-      <div class="circle"></div>
-      <div class="container">
-        <div class="banner_slider slider">
-          <div class="banner_slider_item">
-            <div class="banner_slider_name">
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1"
-                data-duration-out="0.3"
-              >
-                為
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.1"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.05"
-                data-duration-out="0.3"
-              >
-                什
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.2"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.1"
-                data-duration-out="0.3"
-              >
-                麼
-              </div>
-            </div>
-            <div class="banner_slider_name">
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1"
-                data-duration-out="0.3"
-              >
-                選
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.1"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.05"
-                data-duration-out="0.3"
-              >
-                擇
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.2"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.1"
-                data-duration-out="0.3"
-              >
-                養
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.3"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.15"
-                data-duration-out="0.3"
-              >
-                蜜
-              </div>
-            </div>
-          </div>
-          <div class="banner_slider_item">
-            <div class="banner_slider_name">
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1"
-                data-duration-out="0.3"
-              >
-                安
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.1"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.1"
-                data-duration-out="0.3"
-              >
-                全
-              </div>
-            </div>
-            <div class="banner_slider_name">
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1"
-                data-duration-out="0.3"
-              >
-                可
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.1"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.1"
-                data-duration-out="0.3"
-              >
-                靠
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.2"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.2"
-                data-duration-out="0.3"
-              >
-                的
-              </div>
-            </div>
-            <div class="banner_slider_name">
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1"
-                data-duration-out="0.3"
-              >
-                時
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.1"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.1"
-                data-duration-out="0.3"
-              >
-                租
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.2"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.2"
-                data-duration-out="0.3"
-              >
-                平
-              </div>
-              <div
-                data-animation-in="fadeInDown"
-                data-delay-in="0.3"
-                data-duration-in="0.4"
-                data-animation-out="fadeOutDown"
-                data-delay-out="1.3"
-                data-duration-out="0.3"
-              >
-                台
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="content">
-          <div>沒有任何過度肢體接觸</div>
-          <div>適合打工、兼職作為副業的工作</div>
-          <br />
-          <div>高時薪收入，工作時間自行安排</div>
-          <div>您可以直接與客戶溝通並決定日期及行程</div>
-          <div>推薦給繁忙於課業或工作的妳</div>
-          <div>不綁約、免費加入、周周結算薪資</div>
-        </div>
-      </div>
-      <img class="down" src="img/new/arrow_down.png" alt="" />
-    </section>
-
-    <section class="target">
-      <div class="square"></div>
-      <div class="recruit_memeber">Recruit member</div>
-      <div class="container">
-        <div class="img">
-          <img src="img/new/woman.jpeg" alt="" />
-        </div>
-        <div class="text">
-          <div class="title">招募對象</div>
-          <div class="content">
-            <div>18歲以上的女性，身心健康</div>
-            <div>喜愛打扮、可愛有氣質的女性</div>
-            <div>可以愉快自在的男性交談</div>
-            <div>須遵守陪玩須知</div>
-            <div>*嚴禁八大及代聊濫用平台資源</div>
-          </div>
-        </div>
-      </div>
-      <img class="target_dashed" src="img/new/dashed.png" alt="" />
-    </section>
-
-    <section class="step">
-      <div class="circle"></div>
-      <div class="square"></div>
-      <div class="title">
-        <div class="ch">
-          <div>工作流程</div>
-          <div class="arrow_down"></div>
-        </div>
-        <div class="en">WORK PROCESS</div>
-      </div>
-      <div class="container">
-        <div class="swiper_wrap" style="position: relative">
-          <div class="swiper stepSwiper">
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0s"
-              >
-                <img
-                  src="img/new/step_f1.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 1</h3>
-                  <div class="slide-content">養蜜官網註冊女生</div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
-              >
-                <img
-                  src="img/new/step_f2.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 2</h3>
-                  <div class="slide-content">
-                    <div>放上亮眼的照片，</div>
-                    <div>填寫基本資料、自我介紹</div>
-                    <div>及提供您的時租項目</div>
-                    <div>嚴禁腥羶色內容及照片</div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
-              >
-                <img
-                  src="img/new/step_f3.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 3</h3>
-                  <div class="slide-content">
-                    <div>進行身分安心認證，</div>
-                    <div>向客服報名成為官方陪玩師。</div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.6s"
-              >
-                <img
-                  src="img/new/step_f4.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 4</h3>
-                  <div class="slide-content">
-                    <div>訂單接洽，</div>
-                    <div>向客戶自我介紹，</div>
-                    <div>及說明您提供的時租行程，</div>
-                    <div>時租時間及費用。</div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.8s"
-              >
-                <img
-                  src="img/new/step_f5.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 5</h3>
-                  <div class="slide-content">
-                    <div>確認訂單，</div>
-                    <div>ME點付款後成功預約。</div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
-              >
-                <img
-                  src="img/new/step_f6.jpg"
-                  alt="女生使用流程"
-                  width="100%"
-                />
-                <div class="slide-card">
-                  <h3>STEP 6</h3>
-                  <div class="slide-content">
-                    <div>等待行程到來，</div>
-                    <div>在預定的時間進行陪玩活動</div>
-                    <div>一周後領取薪資</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-buttons">
-            <div class="stepNum">1 — 6</div>
-            <div class="swiper-button-prev">
-              <img src="img/prev.png" alt="prev" width="10px" />
-            </div>
-            <div class="swiper-button-next">
-              <img src="img/next.png" alt="next" width="10px" />
-            </div>
-          </div>
-        </div>
-        <div class="expertBtn">
-          <a href="https://line.me/R/ti/p/@017zadfy"
-            >找專員了解<img src="img/arrow.png"
-          /></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="salary">
-      <div class="bg"></div>
-      <div class="container">
-        <div class="text">
-          <div class="title_en">
-            <div>SALARY</div>
-            <div>STRATEGIE</div>
-          </div>
-          <div class="content">
-            <div class="circle"></div>
-            <div class="square"></div>
-            <div class="square1"></div>
-            <div>我們推崇女性自主經營副業</div>
-            <div>平台提供防詐安心金流</div>
-            <div>及安全的工作環境</div>
-            <div style="margin-top: 10px">您可以依據人氣及能力</div>
-            <div>調整時租費用</div>
-            <div>安心金流保障期為一周</div>
-            <div>一周後您可以自行提領薪資</div>
-            <div style="margin-top: 10px">已有多位陪玩師</div>
-            <div>每周都<b>領取數萬報酬</b>喔~</div>
-            <div style="margin-top: 10px"><b>平台僅收一成服務費</b></div>
-          </div>
-          <div class="title_ch">薪資策略</div>
-        </div>
-        <div class="img">
-          <img src="img/new/salary.png" alt="薪資策略" />
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="fab-area">
-        <a
-          href="#"
-          class="scroll-top d-flex align-items-center justify-content-center"
-          ><i class="fas fa-arrow-up"></i
-        ></a>
-      </div>
-      <div class="footer">
-        <div class="copyright">
-          <div class="m-logo">
-            <img
-              data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
-              alt="logo"
-              width="100px"
-            />
-          </div>
-          <i class="far fa-copyright"></i>
-          <span>2022 Young Me 養蜜</span>
-        </div>
-        <div class="right">
-          <div class="agreement">
+          <div>
             <a href="#">隱私條款</a>
             <a href="#">用戶條款</a>
             <a href="#">服務條款</a>
             <a href="#">陪玩須知</a>
           </div>
-          <div class="p-logo">
-            <img
-              data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg"
-              alt="logo"
-              width="70px"
-            />
+        </div>
+        <div class="f_A1MingChaoStd title">レンタル 彼女</div>
+        <div class="f_KuMincho">時租約會 / 即刻見面</div>
+        <div class="btn_wrap">
+          <button class="btn btn-secondary btn-round">即刻登入</button>
+          <button class="btn btn-secondary btn-round">立即註冊</button>
+        </div>
+        <div class="copyright">
+          <i class="far fa-copyright"></i>
+          <span>2022 Young Me 養蜜</span>
+        </div>
+      </div>
+    </ul>
+    <div class="burger">
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <section class="whyYoungMe">
+    <div class="square"></div>
+    <div class="circle"></div>
+    <div class="container">
+      <div class="banner_slider slider">
+        <div class="banner_slider_item">
+          <div class="banner_slider_name">
+            <div data-animation-in="fadeInDown" data-delay-in="0" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1" data-duration-out="0.3">
+              為
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.1" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.05" data-duration-out="0.3">
+              什
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.2" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.1" data-duration-out="0.3">
+              麼
+            </div>
+          </div>
+          <div class="banner_slider_name">
+            <div data-animation-in="fadeInDown" data-delay-in="0" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1" data-duration-out="0.3">
+              選
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.1" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.05" data-duration-out="0.3">
+              擇
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.2" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.1" data-duration-out="0.3">
+              養
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.3" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.15" data-duration-out="0.3">
+              蜜
+            </div>
+          </div>
+        </div>
+        <div class="banner_slider_item">
+          <div class="banner_slider_name">
+            <div data-animation-in="fadeInDown" data-delay-in="0" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1" data-duration-out="0.3">
+              安
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.1" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.1" data-duration-out="0.3">
+              全
+            </div>
+          </div>
+          <div class="banner_slider_name">
+            <div data-animation-in="fadeInDown" data-delay-in="0" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1" data-duration-out="0.3">
+              可
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.1" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.1" data-duration-out="0.3">
+              靠
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.2" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.2" data-duration-out="0.3">
+              的
+            </div>
+          </div>
+          <div class="banner_slider_name">
+            <div data-animation-in="fadeInDown" data-delay-in="0" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1" data-duration-out="0.3">
+              時
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.1" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.1" data-duration-out="0.3">
+              租
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.2" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.2" data-duration-out="0.3">
+              平
+            </div>
+            <div data-animation-in="fadeInDown" data-delay-in="0.3" data-duration-in="0.4"
+              data-animation-out="fadeOutDown" data-delay-out="1.3" data-duration-out="0.3">
+              台
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script
-      crossorigin="anonymous"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      referrerpolicy="no-referrer"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
-      integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="slick-animation.min.js"></script>
-    <script src="script.js"></script>
-    <script src="recruitment.js"></script>
-    <script>
-      let slick = $(".banner_slider").slick({
-        slidesToShow: 1,
-        dots: false,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2700,
-      });
-      slick.slickAnimation();
-      let swiper = new Swiper(".stepSwiper", {
-        autoplay: false,
-        slidesPerView: 2,
-        spaceBetween: 15,
-        slidesPerGroup: 1,
-        width: 450,
-        loop: true,
-        loopFillGroupWithBlank: false,
-        pagination: false,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          576: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-            width: 768,
-          },
-          769: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-            slidesPerGroup: 1,
-            width: 768,
-          },
-          991: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            slidesPerGroup: 1,
-            width: 991,
-          },
-          1200: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            slidesPerGroup: 1,
-            width: 1200,
-          },
-        },
-      });
+      <div class="arrow"></div>
+      <div class="content">
+        <div>沒有任何過度肢體接觸</div>
+        <div>適合打工、兼職作為副業的工作</div>
+        <br />
+        <div>高時薪收入，工作時間自行安排</div>
+        <div>您可以直接與客戶溝通並決定日期及行程</div>
+        <div>推薦給繁忙於課業或工作的妳</div>
+        <div>不綁約、免費加入、周周結算薪資</div>
+      </div>
+    </div>
+    <img class="down" src="img/new/arrow_down.png" alt="" />
+  </section>
 
-      new WOW().init();
+  <section class="target">
+    <div class="square"></div>
+    <div class="recruit_memeber">Recruit member</div>
+    <div class="container">
+      <div class="img">
+        <img src="img/new/woman.jpeg" alt="" />
+      </div>
+      <div class="text">
+        <div class="title">招募對象</div>
+        <div class="content">
+          <div>18歲以上的女性，身心健康</div>
+          <div>喜愛打扮、可愛有氣質的女性</div>
+          <div>可以愉快自在的男性交談</div>
+          <div>須遵守陪玩須知</div>
+          <div>*嚴禁八大及代聊濫用平台資源</div>
+        </div>
+      </div>
+    </div>
+    <img class="target_dashed" src="img/new/dashed.png" alt="" />
+  </section>
 
-      const scrollTop = $(".scroll-top");
-      if (scrollTop) {
-        const togglescrollTop = function () {
-          window.scrollY > 100
-            ? scrollTop.addClass("active")
-            : scrollTop.removeClass("active");
-        };
-        $(document).on("scroll", togglescrollTop);
-        scrollTop.on("click", function (e) {
-          e.preventDefault();
-          $("html, body").animate({ scrollTop: 0 }, 800);
-        });
-      }
-    </script>
-  </body>
+  <section class="step">
+    <div class="circle"></div>
+    <div class="square"></div>
+    <div class="title">
+      <div class="ch">
+        <div>工作流程</div>
+        <div class="arrow_down"></div>
+      </div>
+      <div class="en">WORK PROCESS</div>
+    </div>
+    <div class="container">
+      <div class="swiper_wrap" style="position: relative">
+        <div class="swiper stepSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+              <img src="img/new/step_f1.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 1</h3>
+                <div class="slide-content">養蜜官網註冊女生</div>
+              </div>
+            </div>
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+              <img src="img/new/step_f2.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 2</h3>
+                <div class="slide-content">
+                  <div>放上亮眼的照片，</div>
+                  <div>填寫基本資料、自我介紹</div>
+                  <div>及提供您的時租項目</div>
+                  <div>嚴禁腥羶色內容及照片</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <img src="img/new/step_f3.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 3</h3>
+                <div class="slide-content">
+                  <div>進行身分安心認證，</div>
+                  <div>向客服報名成為官方陪玩師。</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <img src="img/new/step_f4.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 4</h3>
+                <div class="slide-content">
+                  <div>訂單接洽，</div>
+                  <div>向客戶自我介紹，</div>
+                  <div>及說明您提供的時租行程，時租時間及費用。</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+              <img src="img/new/step_f5.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 5</h3>
+                <div class="slide-content">
+                  <div>確認訂單，</div>
+                  <div>ME點付款後成功預約。</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+              <img src="img/new/step_f6.jpg" alt="女生使用流程" width="100%" />
+              <div class="slide-card">
+                <h3>STEP 6</h3>
+                <div class="slide-content">
+                  <div>等待行程到來，</div>
+                  <div>在預定的時間進行陪玩活動</div>
+                  <div>一周後領取薪資</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-buttons">
+          <div class="stepNum">1 — 6</div>
+          <div class="swiper-button-prev">
+            <img src="img/prev.png" alt="prev" width="10px" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="img/next.png" alt="next" width="10px" />
+          </div>
+        </div>
+      </div>
+      <div class="expertBtn">
+        <a href="https://line.me/R/ti/p/@017zadfy">找專員了解<img src="img/arrow.png" /></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="salary">
+    <div class="bg"></div>
+    <div class="container">
+      <div class="text">
+        <div class="title_en">
+          <div>SALARY</div>
+          <div>STRATEGIE</div>
+        </div>
+        <div class="content">
+          <div class="circle"></div>
+          <div class="square"></div>
+          <div class="square1"></div>
+          <div>我們推崇女性自主經營副業</div>
+          <div>平台提供防詐安心金流</div>
+          <div>及安全的工作環境</div>
+          <div style="margin-top: 10px">您可以依據人氣及能力</div>
+          <div>調整時租費用</div>
+          <div>安心金流保障期為一周</div>
+          <div>一周後您可以自行提領薪資</div>
+          <div style="margin-top: 10px">已有多位陪玩師</div>
+          <div>每周都<b>領取數萬報酬</b>喔~</div>
+          <div style="margin-top: 10px"><b style="font-weight: 600;">平台僅收一成服務費</b></div>
+        </div>
+        <div class="title_ch">薪資策略</div>
+      </div>
+      <div class="img">
+        <img src="img/new/salary.png" alt="薪資策略" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="fab-area">
+      <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+          class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="footer">
+      <div class="copyright">
+        <div class="m-logo">
+          <img data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="logo" width="100px" />
+        </div>
+        <i class="far fa-copyright"></i>
+        <span>2022 Young Me 養蜜</span>
+      </div>
+      <div class="right">
+        <div class="agreement">
+          <a href="#">隱私條款</a>
+          <a href="#">用戶條款</a>
+          <a href="#">服務條款</a>
+          <a href="#">陪玩須知</a>
+        </div>
+        <div class="p-logo">
+          <img data-src="https://d2wqx6u4nuhgzp.cloudfront.net/IMAGE/LOGO.svg" alt="logo" width="70px" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script crossorigin="anonymous"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"
+    integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="slick-animation.min.js"></script>
+  <script src="script.js"></script>
+  <script src="recruitment.js"></script>
+  <script>
+    let slick = $(".banner_slider").slick({
+      slidesToShow: 1,
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2700,
+    });
+    slick.slickAnimation();
+    let swiper = new Swiper(".stepSwiper", {
+      autoplay: false,
+      slidesPerView: 2,
+      spaceBetween: 15,
+      slidesPerGroup: 1,
+      width: 450,
+      loop: true,
+      loopFillGroupWithBlank: false,
+      pagination: false,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          slidesPerGroup: 1,
+          width: 768,
+        },
+        769: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          slidesPerGroup: 1,
+          width: 768,
+        },
+        991: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 1,
+          width: 991,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          slidesPerGroup: 1,
+          width: 1200,
+        },
+      },
+    });
+
+    new WOW().init();
+
+    const scrollTop = $(".scroll-top");
+    if (scrollTop) {
+      const togglescrollTop = function () {
+        window.scrollY > 100
+          ? scrollTop.addClass("active")
+          : scrollTop.removeClass("active");
+      };
+      $(document).on("scroll", togglescrollTop);
+      scrollTop.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 800);
+      });
+    }
+  </script>
+</body>
+
 </html>
