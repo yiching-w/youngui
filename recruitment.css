@@ -940,6 +940,7 @@ section.step {
   font-size: 3rem;
   font-weight: 700;
 }
+
 .arrow_down::after {
   content: "";
   background-image: url("img/new/arrow_right.png");
@@ -974,7 +975,7 @@ section.step {
 
 .slide-card {
   transform: translateY(-100px);
-  margin-bottom: -100px;
+  margin-bottom: -110px;
   background-color: rgb(242, 242, 242);
   color: rgb(0, 0, 0);
   height: 150px;
@@ -1092,6 +1093,7 @@ section.step {
   .swiper-buttons {
     right: 0;
   }
+
   section.step {
     padding: 130px 0 30px;
   }
@@ -1138,11 +1140,12 @@ section.step {
   .slide-content {
     letter-spacing: 0px;
     font-size: 14px;
+    font-weight: 500;
   }
 
   .slide-card {
     width: 96%;
-    padding: 5px 20px;
+    padding: 5px 15px;
     height: 135px;
   }
 
