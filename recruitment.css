@@ -975,7 +975,7 @@ section.step {
 
 .slide-card {
   transform: translateY(-100px);
-  margin-bottom: -110px;
+  margin-bottom: -90px;
   background-color: rgb(242, 242, 242);
   color: rgb(0, 0, 0);
   height: 150px;
@@ -1140,7 +1140,6 @@ section.step {
   .slide-content {
     letter-spacing: 0px;
     font-size: 14px;
-    font-weight: 500;
   }
 
   .slide-card {
